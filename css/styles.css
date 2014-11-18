@@ -1,4 +1,35 @@
+/*Primary Header*/
+
+h1 {
+	font-family: 'Fontdiner Swanky', cursive;
+	color: #76C7B0;
+}
+
+
+/*Body text*/
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 1.5em;
+	color: #eee;
+}
+
+/*Links*/
+
+a:link, 
+a:visited {
+	border-bottom: double black 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover, 
+a:active {
+	background: pink;
+}
+
 /* Set Your Own Margin & Padding */
+
+
 h2, h3, p {
 	margin: 0;
 }
@@ -21,6 +52,27 @@ section {
 	width: 50px;
 }
 
+
+/*Color Pallette*/
+
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflowerblue;
+}
+
+/*Textures*/
+
+.pattern-1 {
+background-color: #00b2b8;
+background-image: url(http://www.transparenttextures.com/patterns/black-thread.png);)
+}
+
+.pattern-2 {
+	background: url ("../img/logo_x_pattern.png")
+}
 
 /* Show Grid */
 .showgrid {
