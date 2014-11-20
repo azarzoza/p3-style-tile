@@ -1,31 +1,49 @@
-/*Primary Header*/
+/*Body*/
+body {
+	background: url("../img/pattern1.jpg");
 
-h1 {
-	font-family: 'Fontdiner Swanky', cursive;
-	color: #76C7B0;
+
 }
 
+/*Headers*/
 
+h1 {
+	font-family: 'Poiret One', cursive;
+	color: #407CC9;
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	color: #90C0C0;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+}
 /*Body text*/
 p {
 	font-family: 'Open Sans Condensed', sans-serif;
 	line-height: 1.5em;
-	color: #eee;
+	color: #181818;
 }
 
 /*Links*/
 
 a:link, 
 a:visited {
-	border-bottom: double black 2px;
 	text-transform: uppercase;
 	text-decoration: none;
+	color: #90C0C0;
 }
 
 a:hover, 
 a:active {
-	background: pink;
+	background: #9794D2;
 }
+
+
+
 
 /* Set Your Own Margin & Padding */
 
@@ -35,13 +53,26 @@ h2, h3, p {
 }
 
 /* Layout for Style Tile*/
+
+.box {
+	background-color: rgba(255,255,255,.5);
+}
+
+img {
+	width: 200px;
+	height: 300px;
+	position: inline-block;
+}
+
 section {
 	margin: 20px 0;
+
 }
 
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
@@ -56,22 +87,30 @@ section {
 /*Color Pallette*/
 
 .color-1 {
-	background: teal;
+	background: #407CC9;
 }
 
 .color-2 {
-	background: cornflowerblue;
+	background: #90C0C0;
+}
+
+.color-3 {
+	background: #9794D2;
+}
+
+.color-4 {
+	background: #181818;
 }
 
 /*Textures*/
 
 .pattern-1 {
-background-color: #00b2b8;
-background-image: url(http://www.transparenttextures.com/patterns/black-thread.png);)
+background-image: url("../img/pattern1.jpg");
+
 }
 
 .pattern-2 {
-	background: url ("../img/logo_x_pattern.png")
+	background: url ("../img/pattern1.jpg")
 }
 
 /* Show Grid */
