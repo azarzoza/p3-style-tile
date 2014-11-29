@@ -3,6 +3,21 @@ body {
 	background: url("../img/pattern1.jpg");
 
 }
+/* first frame */
+nav {
+  
+  
+  position: inline-block;
+  
+  
+  transition: top .25s;
+  
+}
+
+/* last frame */
+nav:hover {
+  top: 10px;
+}
 
 
 /*Headers*/
@@ -77,7 +92,7 @@ h1, h2, h3, p {
 /* Layout for Style Tile*/
 
 .box {
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(252, 247, 243, 0.9);
 	
 
 }
@@ -133,6 +148,8 @@ section {
 	background: #181818;
 }
 
+
+
 /*Textures*/
 
 .pattern-1 {
@@ -141,6 +158,7 @@ background-image: url("../img/pattern1.jpg");
 }
 
 .pattern-2 {
+	background: #FCF7F3;
 	}
 
 /* Show Grid */
