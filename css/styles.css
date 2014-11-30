@@ -1,35 +1,28 @@
 /*Body*/
 body {
+	background: url("../img/symphony.png");
+	padding: 20px;
+	
+
+}
+
+.box {
 	background: url("../img/pattern1.jpg");
 
-}
-/* first frame */
-nav {
-  
-  
-  position: inline-block;
-  
-  
-  transition: top .25s;
-  
-}
 
-/* last frame */
-nav:hover {
-  top: 10px;
 }
-
-
 /*Headers*/
 
 h1 {
 	font-family: 'Poiret One', cursive;
 	color: #407CC9;
+	padding: 5px 5px;
 }
 
 h2 {
 	font-family: 'Pacifico', cursive;
 	color: #90C0C0;
+	padding: 5px 5px;
 }
 
 h3 {
@@ -56,13 +49,16 @@ p {
 .two {
 	font-family: 'Pacifico', cursive;
 	font-size: 1em;
+
 }
 
 
 .three {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 1em;
+	position: absolute;
 }
+
 
 
 /*Links*/
@@ -85,24 +81,29 @@ a:active {
 /* Set Your Own Margin & Padding */
 
 
-h1, h2, h3, p {
+section {
 	margin: 20px 20px;
+	padding: 10px 10px;
 }
 
 /* Layout for Style Tile*/
 
-.box {
-	background-color: rgba(252, 247, 243, 0.9);
-	
 
-}
 
-img {
+.logo {
 	width: 200px;
 	height: 300px;
 	position: inline-block;
 	margin: 20px 20px;
+	transition: left ease-in .5s;
+	
 }
+
+.logo:hover {
+	right: 150px;
+}
+
+
 
 section {
 	margin: 20px 20px;
@@ -123,6 +124,7 @@ section {
 	margin: 20px 10px;
 	height: 50px;
 	width: 50px;
+
 }
 
 .colors, .patterns {
@@ -158,8 +160,10 @@ background-image: url("../img/pattern1.jpg");
 }
 
 .pattern-2 {
-	background: #FCF7F3;
+	background: url("../img/symphony.pgn");
 	}
+
+
 
 /* Show Grid */
 .showgrid {
