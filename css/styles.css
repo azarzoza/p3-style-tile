@@ -2,12 +2,18 @@
 body {
 	background: url("../img/symphony.png");
 	padding: 20px;
+	background-attachment: fixed;
 	
+}
 
+.container {
+	width: auto;
 }
 
 .box {
 	background: url("../img/pattern1.jpg");
+	word-wrap: word-break;
+	background-attachment: fixed;
 
 
 }
@@ -105,10 +111,6 @@ section {
 
 
 
-section {
-	margin: 20px 20px;
-
-}
 
 
 
@@ -130,7 +132,12 @@ section {
 .colors, .patterns {
 	margin: 20px 20px;
 	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
 
+}
+
+.color {
+	float: left;
 }
 /*Color Pallette*/
 
@@ -160,7 +167,7 @@ background-image: url("../img/pattern1.jpg");
 }
 
 .pattern-2 {
-	background: url("../img/symphony.pgn");
+background-image: url("../img/symphony.png");
 	}
 
 
