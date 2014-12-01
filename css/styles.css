@@ -101,12 +101,14 @@ section {
 	height: 300px;
 	position: inline-block;
 	margin: 20px 20px;
-	transition: left ease-in .5s;
+	
 	
 }
 
 .logo:hover {
-	right: 150px;
+	float: right;
+
+
 }
 
 
@@ -170,7 +172,9 @@ background-image: url("../img/pattern1.jpg");
 background-image: url("../img/symphony.png");
 	}
 
-
+.pattern-3 {
+background-image: url("../img/green_gobbler.png");
+}
 
 /* Show Grid */
 .showgrid {
