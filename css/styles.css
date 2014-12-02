@@ -7,25 +7,21 @@
 	
 }
 
-
-
-.box {
-	background: url("../img/pattern1.jpg");
-	background-attachment: fixed;
-	opacity: 0.8;
-	
-}
   
 .box:hover {
-	opacity: 1.0;
+	opacity: .75;
+	cursor: crosshair;
 }  
+
+
 
 /*Headers*/
 
 h1 {
 	font-family: 'Poiret One', cursive;
-	color: rgba(64, 124, 201, 1);
+	color: #407CC9;
 	padding: 5px 5px;
+	text-align: center;
 	
 	
 }
@@ -39,6 +35,7 @@ h2 {
 h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #9794D2;
+
 }
 
 
@@ -53,26 +50,29 @@ p {
 
 .one {
 	font-family: 'Poiret One', cursive;
-	font-size: 1em;
+	font-size: .75em;
+	
 
 
 }
 
 .two {
 	font-family: 'Pacifico', cursive;
-	font-size: 1em;
+	font-size: .75em;
+
 
 }
 
 
 .three {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1em;
+	font-size: .75em;
 
 }
 
-
-
+aside {
+	text-align: center;
+}
 /*Links*/
 
 a:link, 
@@ -90,13 +90,7 @@ a:active {
 
 
 
-/* Set Your Own Margin & Padding */
 
-
-section {
-	margin: 20px 20px;
-	padding: 10px 10px;
-}
 
 /* Layout for Style Tile*/
 
@@ -112,7 +106,10 @@ section {
 }
 
 .logo:hover {
-	float: right;
+	transition-property: opacity;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    opacity: .25;;
 	
 
 }
