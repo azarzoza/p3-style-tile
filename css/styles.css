@@ -1,28 +1,33 @@
 /*Body*/
-body {
+:root {
 	background: url("../img/symphony.png");
 	padding: 20px;
 	background-attachment: fixed;
+	margin: auto;
 	
 }
 
-.container {
-	width: auto;
-}
+
 
 .box {
 	background: url("../img/pattern1.jpg");
-	word-wrap: word-break;
 	background-attachment: fixed;
-
-
+	opacity: 0.8;
+	
 }
+  
+.box:hover {
+	opacity: 1.0;
+}  
+
 /*Headers*/
 
 h1 {
 	font-family: 'Poiret One', cursive;
-	color: #407CC9;
+	color: rgba(64, 124, 201, 1);
 	padding: 5px 5px;
+	
+	
 }
 
 h2 {
@@ -41,14 +46,15 @@ h3 {
 
 p {
 	font-family: 'Open Sans Condensed', sans-serif;
-	line-height: 1.25em;
-	font-size: 1.25em;
+	line-height: 1.2em;
+	font-size: 1.2em;
 	color: #181818;
 }
 
 .one {
 	font-family: 'Poiret One', cursive;
 	font-size: 1em;
+
 
 }
 
@@ -62,7 +68,7 @@ p {
 .three {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 1em;
-	position: absolute;
+
 }
 
 
@@ -107,7 +113,7 @@ section {
 
 .logo:hover {
 	float: right;
-
+	
 
 }
 
